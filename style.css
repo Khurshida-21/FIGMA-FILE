@@ -1,0 +1,140 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #3b0a6f;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.hero {
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+
+.section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+
+.color-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.color-row.small {
+  gap: 20px;
+}
+
+
+.color-card {
+  width: 120px;
+  height: 160px;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 12px;
+  font-weight: bold;
+}
+
+.red { background: #e11d48; }
+.yellow { background: #facc15; color: #000; }
+.blue { background: #2563eb; }
+
+.green { background: #22c55e; }
+.purple { background: #9333ea; }
+.orange { background: #f97316; }
+
+.amber { background: #f59e0b; }
+.vermillion { background: #fb4f14; }
+.magenta { background: #d946ef; }
+.violet { background: #8b5cf6; }
+.teal { background: #14b8a6; }
+.chartreuse { background: #a3e635; color: #000; }
+
+.circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+
+.complementary {
+  background: conic-gradient(red, orange, yellow, green, cyan, blue, violet, red);
+}
+
+.analogous {
+  background: conic-gradient(#facc15, #fb923c, #ef4444, #facc15);
+}
+
+.mono {
+  background: conic-gradient(#bfdbfe, #60a5fa, #2563eb, #1e3a8a);
+}
+
+.psychology {
+  list-style: none;
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.psychology li {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+footer {
+  padding: 40px 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .color-card {
+    width: 100px;
+    height: 140px;
+  }
+}
